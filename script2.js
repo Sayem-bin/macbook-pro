@@ -116,6 +116,7 @@ freeShipping.addEventListener('click', function () {
     }
     shippingCost.innerText = 0;
     shippingCalculation()
+    totalCost.innerText = 1299;
 });
 
 expressShipping.addEventListener('click', function () {
@@ -124,6 +125,7 @@ expressShipping.addEventListener('click', function () {
         expressShipping.classList.add('selected')
     }
     shippingCost.innerText = 20;
+    totalCost.innerText = 1299;
     shippingCalculation()
 })
 
